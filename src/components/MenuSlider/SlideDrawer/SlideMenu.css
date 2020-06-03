@@ -1,0 +1,14 @@
+.slide-drawer {
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 0px 7px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    z-index: 200;
+    transform: translateX(-100%);
+}
+.slide-drawer.open {
+    transform: translateX(0);
+}
